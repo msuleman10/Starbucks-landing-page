@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+nav,.logo-box,.location-box,.location-box a,menu,section,section div,.section5,.pages,ul,.pages div,.hr-box,.social-media,.security,footer{
+    display: flex;
+}
+nav,.logo-box,.location-box,.location-box a{
+    justify-content: space-between;
+}
+nav,.logo-box,.location-box,.location-box a,section,section div,.section5,.hr-box{
+    align-items: center;
+}
+nav a,.section5 p a:hover,li a,.security a{
+    text-decoration: none;
+}
+nav a,.location-box button,section button{
+    font-weight: bolder;
+}
+menu,section div,.section5,ul,.pages div,footer{
+    flex-direction: column;
+}
+menu,.section5,.pages div,.security,footer{
+    gap: 30px;
+}
+.section1 button, .section2 button,.section1,.section2,.section5 p a{
+    color: #1e3932;
+}
+nav{
+    padding: 25px 35px;
+}
+button{
+    cursor: pointer;
+}
+.image{
+    width: 50px;
+    height: 50px;
+}
+.logo-box , .location-box{
+    width: 23%;
+    font-family: 'Tajawal', sans-serif;
+}
+.location-box a img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+nav a{
+    color: black;
+    font-size: 15px;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+a:hover{
+    color: #00754a;
+}
+.location-box button{
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+.button2{
+    background-color: black;
+    color: white;
+    opacity: 100%;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+}
+.button2:hover{
+    opacity: 60%;
+}
+.button1{
+    background-color: transparent;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    font-size: 11px;
+}
+.button1:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+hr{
+    border: none;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(rgb(199, 197, 197) 5%,white 95%);
+}
+menu{
+    padding: 30px 40px;
+}
+section{
+    justify-content: center;
+}
+section div{
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.7rem;
+    gap: 20px;
+}
+section div p {
+    max-width: 75%;
+    line-height: 40px;
+}
+section div img{
+    width: 100%;
+    height: 100%;
+}
+section button{
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.section1 button, .section2 button{
+    border:  1px solid #1e3932;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+}
+.section3 button, .section4 button{
+    border:  1px solid #ffffff;
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+}
+.section1 button:hover, .section2 button:hover{
+    background-color: rgba(92, 91, 91, 0.1);
+}
+.section3 button:hover, .section4 button:hover{
+    background-color: rgba(235, 229, 229,0.2);
+}
+.section1{
+    background-color: #f4c5a1;
+}
+.section2{
+    background-color: #96b2e1;
+}
+.section3{
+    background-color: #8b323e;
+    color: #ffffff; 
+}
+.section4{
+    background-color: #3d7170;
+    color: #ffffff; 
+}
+.section5{
+    background-color: #d4e9e2;
+    color: #33433d;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+.section5 p,.section5 a{
+    font-size: 20px;
+}
+.section5 p a{
+    text-decoration: underline;
+}
+.section6{
+    padding: 30px 0px 5px 0px;
+}
+.pages{
+    gap: 50px;
+    padding: 30px 50px  50px 50px;
+}
+ul{
+    list-style: none;
+    gap: 20px;
+}
+li{
+    max-width: 80%;
+    line-height: 22px;
+}
+li a{
+    color: gray;
+}
+li a:hover{
+    color: black;
+}
+.pages div{
+    width:100% ;
+}
+.pages div h3{
+    font-weight: lighter;
+}
+.hr{
+    max-width: 95%;
+}
+.hr-box{
+    justify-content: center;
+}
+.social-media{
+    gap: 17px;
+}
+.social-media a img{
+    width: 35px;
+    height: 35px;
+}
+.security a{
+    color: black;
+}
+.security a:hover{
+    text-decoration: underline;
+}
+h5{
+    color: rgba(0,0,0,.58);
+}
+footer{
+    padding: 40px 0px 30px 50px;
+}
